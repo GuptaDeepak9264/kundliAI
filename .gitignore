@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/kundli_ai.db
+frontend/node_modules/
+frontend/build/
+.DS_Store
+Thumbs.db

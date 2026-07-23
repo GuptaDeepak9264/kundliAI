@@ -1,0 +1,2 @@
+.report-actions { display: flex; flex-wrap: wrap; gap: 9px; justify-content: flex-end; }
+@media (max-width: 720px) { .report-actions { justify-content: flex-start; } }

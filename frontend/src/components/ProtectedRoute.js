@@ -1,0 +1,1 @@
+import { Navigate } from 'react-router-dom'; export default function ProtectedRoute({children,admin=false}) { const user=JSON.parse(localStorage.getItem('kundli_user')||'null'); if(!user)return <Navigate to="/login" replace/>; return admin&&!user.is_admin?<Navigate to="/dashboard" replace/>:children; }
